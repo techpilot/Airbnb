@@ -9,7 +9,7 @@ import Footer from "../components/Footer";
 
 export default function Home({ exploreData, cardsData }) {
   return (
-    <div className>
+    <div className="bg-gray-50">
       <Head>
         <title>Airbnb</title>
         <link rel="icon" href="/favicon.ico" />
@@ -21,7 +21,7 @@ export default function Home({ exploreData, cardsData }) {
       <Banner />
 
       {/*    Main Section of the screen*/}
-      <main className="max-w-7xl mx-auto px-8 sm:px-16">
+      <main className="max-w-7xl mx-auto px-8 sm:px-16 bg-white m-4 rounded-lg">
         <section className="pt-6">
           <h2 className="text-4xl font-semibold pb-5">Explore Nearby</h2>
           {/*pull some data from a server*/}
