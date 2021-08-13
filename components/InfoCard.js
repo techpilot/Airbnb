@@ -23,7 +23,7 @@ function InfoCard({ img, location, title, description, star, price, total }) {
           <HeartIcon className="h-7 cursor-pointer" />
         </div>
 
-        <h4 cbassName="text-xl">{title}</h4>
+        <h4 className="text-xl">{title}</h4>
 
         <div className="border-b w-10 pt-4" />
 
